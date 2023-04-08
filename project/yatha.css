@@ -24,7 +24,7 @@
 }
 
 .logo{
-    color: #66c2d2;
+    color: #ff7200;
     font-size: 35px;
     font-family: Arial;
     padding-left: 20px;
@@ -152,25 +152,23 @@ ul li a:hover{
     font-family: 'Courier New', Courier, monospace;
     font-size: 30px;
     padding-left: 130px;
-    margin-top: 1%;
+    margin-top: 2.5%;
     letter-spacing: 2px;
 }
 .fox{
-    top: 10px;
-    left: 0px;
-    height: 450px;
-    width: 800px;
-    padding-top: 2px;
-    padding-left: 1px;
+    top: 80px;
+    left: 500px;
+    padding-top: 1px;
+    padding-left: -60px;
 }
 
 .form{
-    width: 250px;
+    width: 300px;
     height:350px;
     background:rgba(9, 72, 101, 0.8);
     position: absolute;
-    top: 210px;
-    left: 770px;
+    top: 200px;
+    left: 450px;
     transform: translate(0%,-5%);
     border-radius: 10px;
     padding: 25px;
@@ -178,33 +176,19 @@ ul li a:hover{
 
 
 .form h2{
-    width: 220px;
+    width: 300px;
     font-family: sans-serif;
     text-align: center;
     color: #fff;
     font-size: 22px;
     background-color: rgba(9, 72, 101, 0.8);
     border-radius: 10px;
-    margin: 2px;
-    padding: 8px;
-}
-.form h3{
-    width: 220px;
-    font-family: 'Courier New', Courier, monospace;
-    text-align: center;
-    color: #000;
-    font-size: 19px;
-    background-color:#fff;
-    border-radius: 10px;
-    
-    margin-left:8px;
-    margin-top: 20px;
-    padding: 10px;
-   
+    margin: 0px;
+    padding: 3px;
 }
 
 .form input{
-    width: 240px;
+    width: 300px;
     height: 35px;
     background: transparent;
     border-bottom: 1px solid rgba(9, 72, 101, 0.8);
@@ -228,7 +212,7 @@ ul li a:hover{
 }
 
 .btnn{
-    width: 240px;
+    width: 300px;
     height: 40px;
     background: #c0e5f4;
     border: none;
