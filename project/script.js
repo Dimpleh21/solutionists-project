@@ -25,7 +25,7 @@ const db = getFirestore(app);
 
 try {
   const docRef = await addDoc(collection(db, "users"));
-  console.log("Document written with ID: ", docRef.id);
+  console.log("Document written with ID: ", docRef.roll);
 } catch (e) {
   console.error("Error adding document: ", e);
 }
@@ -43,7 +43,13 @@ output.innerHTML = outuptHtml;
     console.error("Error adding document: ", e);
   }
   
-
+<script>
+// When the user clicks on <div>, open the popup
+function myFunction() {
+  var popup = document.getElementById("myPopup");
+  popup.classList.toggle("show");
+}
+</script>
 
 function validate() {  
 	var result = "";	

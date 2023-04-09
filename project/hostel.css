@@ -17,26 +17,22 @@
     margin: auto;
 }
 
-.icon{
-    width: 200px;
-    float: left;
-    height: 70px;
-}
 
-.logo{
-    color: #ff7200;
-    font-size: 35px;
-    font-family: Arial;
-    padding-left: 20px;
-    float: left;
-    padding-top: 10px;
-    margin-top: 5px
-}
+
+
 
 .menu{
-    width: 800px;
-    float: left;
+    width: 900px;
+    float: right;
     height: 70px;
+}
+#roll{
+    top: 10px;
+    left: -100px;
+    height: 450px;
+    width: 800px;
+    padding-top: 2px;
+    padding-left: 0.5px;
 }
 
 ul{
@@ -65,27 +61,8 @@ ul li a:hover{
     color: rgba(9, 72, 101, 0.8);
 }
 
-.search{
-    width: 330px;
-    float: left;
-    margin-left: 270px;
-}
 
-.srch{
-    font-family: 'Times New Roman';
-    width: 200px;
-    height: 40px;
-    background: transparent;
-    border: 1px solid rgba(9, 72, 101, 0.8) ;
-    margin-top: 13px;
-    color: #fff;
-    border-right: none;
-    font-size: 16px;
-    float: left;
-    padding: 10px;
-    border-bottom-left-radius: 5px;
-    border-top-left-radius: 5px;
-}
+
 
 .btn{
     width: 100px;
@@ -150,46 +127,64 @@ ul li a:hover{
 }
 .yus{
     font-family: 'Courier New', Courier, monospace;
+    float: left;
     font-size: 30px;
     padding-left: 130px;
-    margin-top: 2.5%;
+    margin-top: 1%;
     letter-spacing: 2px;
 }
 .fox{
-    top: 80px;
-    left: 500px;
-    padding-top: 1px;
-    padding-left: -60px;
+    top: 10px;
+    left: -100px;
+    height: 450px;
+    width: 800px;
+    padding-top: 2px;
+    padding-left: 0.5px;
 }
 
 .form{
-    width: 1100px;
-    height:550px;
-    background:rgba(252, 253, 253, 0.8);
+    width: 500px;
+    height:450px;
+    background:rgba(9, 72, 101, 0.8);
     position: absolute;
-    top: 100px;
-    left: 50px;
+    top: 130px;
+    left: 320px;
     transform: translate(0%,-5%);
-    border-radius: 10px;
+    border-radius: 1px;
     padding: 25px;
 }
 
 
 .form h2{
-    width: 1100px;
+    width: 500px;
+    height: 60px;
     font-family: sans-serif;
     text-align: center;
     color: #fff;
-    font-size: 22px;
+    font-size: 28px;
     background-color: rgba(9, 72, 101, 0.8);
+    border-radius: 1px;
+    margin: 3px;
+    padding: 2px;
+}
+.form h3{
+    width: 220px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    color: #000;
+    font-size: 19px;
+    background-color:#fff;
     border-radius: 10px;
-    margin: 1px;
-    padding: 7px;
+    
+    margin-left:8px;
+    margin-top: 20px;
+    padding: 10px;
+   
 }
 
 .form input{
-    width: 350px;
-    height: 35px;
+    width: 240px;
+    height: 70px;
     background: transparent;
     border-bottom: 1px solid rgba(9, 72, 101, 0.8);
     border-top: none;
@@ -210,13 +205,66 @@ ul li a:hover{
     color: #fff;
     font-family: Arial;
 }
+.popup {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+  /* The actual popup (appears on top) */
+  .popup .popuptext {
+    visibility: hidden;
+    width: 160px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -80px;
+  }
+  
+  /* Popup arrow */
+  .popup .popuptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+  }
+  
+  /* Toggle this class when clicking on the popup container (hide and show the popup) */
+  .popup .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s
+  }
+  
+  /* Add animation (fade in the popup) */
+  @-webkit-keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+  }
+  
+  @keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+  }
+
 
 .btnn{
-    width: 350px;
+    width: 240px;
     height: 40px;
     background: #c0e5f4;
     border: none;
-    margin-top: 30px;
+    margin-top: 70px;
+    margin-left: 130px;
     font-size: 18px;
     border-radius: 10px;
     cursor: pointer;
@@ -228,7 +276,8 @@ ul li a:hover{
     height: 40px;
     background: #c0e5f4;
     border: none;
-    margin-top: 20px;
+    margin-top: 40px;
+    margin-left: 130px;
     font-size: 18px;
     border-radius: 10px;
     cursor: pointer;
@@ -283,4 +332,4 @@ ul li a:hover{
     color: rgba(9, 72, 101, 0.8);
 }
 
-
+/* Popup container */
